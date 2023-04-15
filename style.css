@@ -1,0 +1,101 @@
+      /* Style for the button and list */
+      body{
+        background-color: rgb(41, 41, 41);
+      }
+      
+      button {
+        margin-right: 10px;
+      }
+
+
+      #start-btn, #stop-btn, #restart-btn {
+        background-color: #ddd;
+        border: none;
+        padding: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-right: 10px;
+      }
+      
+      #start-btn:hover, #stop-btn:hover, #restart-btn:hover {
+        background-color: #bbb;
+      }
+      
+      #start-btn:active, #stop-btn:active, #restart-btn:active {
+        background-color: #000;
+        color: #fff;
+      }
+
+
+      ul {
+        margin-top: 20px;
+        list-style-type: none;
+        padding: 0;
+      }
+      
+      li {
+        font-size: 20px;
+        margin-bottom: 5px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      
+      li:first-child {
+        margin-top: 10px;
+      }
+
+
+
+      Otro estilo
+
+      ul {
+        margin-top: 20px;
+        list-style-type: none;
+        padding: 0;
+      }
+      
+      li {
+        font-size: 13px;
+        margin-bottom: 5px;
+        padding: 5px;
+        border-radius: 5px;
+        background: linear-gradient(to bottom, #4f4f4f, #58304e);
+        color: #fff;
+      }
+      
+      li:first-child {
+        margin-top: 10px;
+      }
+
+      #title {
+        color: #4f4f4f;
+      }
+
+      /* li.quil-time {
+        color: red;
+      }
+      
+      li.moment-time {
+        color: blue;
+      } */
+
+
+
+      #timer-display {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #757575;
+      }
+
+      #strim {
+        color: #757575;
+      }
+/* 
+      button.active {
+        background-color: rgb(65, 65, 65);
+        color: white;
+      } */
+
+
+      

@@ -1,0 +1,45 @@
+/* #button-container {
+    display: flex;
+  }
+  
+  #quil-btn, #moment-btn {
+    flex: 1;
+  } */
+
+  #button-container {
+    display: flex;
+  }
+  
+  #quil-btn {
+    flex: 1;
+    /* background-color: #b32c2cb2; */
+    color: #ebebeb;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #e97c00 0%, #f84ed3 100%);
+    
+
+  }
+  
+  #moment-btn {
+    flex: 1;
+    color: #ebebeb;
+    
+    background-color: #ddd;
+    border: 2px solid #000;
+
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+  }
+  
+  #quil-btn.active, #moment-btn.active {
+    background-color: #ff0000;
+    color: #fff;
+  }
